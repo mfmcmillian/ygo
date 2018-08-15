@@ -1,0 +1,2 @@
+# ygo
+YGO Stat Tracker
