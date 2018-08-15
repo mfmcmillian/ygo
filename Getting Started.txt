@@ -1,0 +1,64 @@
+Install the following software onto your laptops, test, and show me the results. The software needs to be installed prior to when we meet on the 19th. If you have issues, please let me know.
+
+Step 1:
+Install Visual Studio Code using the following link: https://code.visualstudio.com/download
+
+Step 2:
+Install the C# extension for Visual Studio Code using the following link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
+
+Step 3:
+Install .Net Core SDK using the following link: https://www.microsoft.com/net/learn/get-started/windows?utm_expid=.-Fmi9Q05Ry2oXQgdtPElHw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F
+
+Test 1:
+Open Visual Studio Code. Click the View menu and then the Integrated Terminal menu item.
+Type the following and click enter: dotnet new console -o myApp
+Type the following and click enter: cd myApp
+Type the following and click enter: dotnet run
+"Hello World!" should be written out. If not, there was something wrong with the install.
+
+Step 4:
+Download and install NodeJS and NPM from the following link: https://nodejs.org/en/download/
+
+Step 5:
+Open Visual Studio Code. Click the View menu and then the Integrated Terminal menu item.
+Type the following and click enter to install ts-node: npm install -g ts-node
+
+Step 6:
+Open Visual Studio Code. Click the View menu and then the Integrated Terminal menu item.
+Type the following and click enter to install typescript: npm install -g typescript
+
+Step 7:
+Open Visual Studio Code. Click the View menu and then the Integrated Terminal menu item.
+Type the following and click enter to install Angular: npm install -g @angular/cli
+
+Test 2:
+Open Visual Studio Code. Click the View menu and then the Integrated Terminal menu item.
+Type the following and click enter: ng new my-app
+Type the following and click enter: cd my-app
+Type the following and click enter: ng serve --open
+The web browser should open and show a sample Angular app. If not, something was not installed correctly.
+
+Step 8:
+Install MySql.
+
+For Windows:
+Download and install MySql from the following link: https://dev.mysql.com/downloads/windows/installer/8.0.html
+Ensure everything is installed including MySql server and the workbench.
+
+For Mac:
+Download and install MySql server from the following link: https://dev.mysql.com/downloads/mysql/
+Download and install MySql workbench from the following link: https://dev.mysql.com/downloads/workbench/
+
+Test 3:
+Open MySql Workbench
+Click the Local instance MySQL box under MySQL Connections.
+Click the file menu and then the New Query Tab menu item.
+Copy and paste the following into the query window and then click the query window and Execute (All or Selection) menu item:
+
+create database test;
+use test;
+create table test(test int);
+insert into test (test) values (1);
+select * from test;
+
+A results window should appear showing the number 1. If not then something did not install correctly
